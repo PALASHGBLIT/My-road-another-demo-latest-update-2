@@ -1,0 +1,56 @@
+<html>
+
+
+<style>
+    .row {
+        display: flex;
+    }
+
+
+    .container {
+        position: relative;
+        font-family: Arial;
+        text-align: justify;
+        font-size: 15px;
+
+    }
+</style>
+
+<body>
+
+
+    <div class="row">
+        <div class="container">
+
+
+            <img class="circular--square" src="../Doctor's landing/istockphoto-1266812230-612x612-1333333.jpg"
+                width="1170px" height="755px">
+
+            <div class="text">
+                <br />
+
+                <h1> We Are Commited to Your</h1>
+                <p>
+
+                <div class="text2">
+                    <h1> Health</h1>
+                </div>
+
+                </p>
+            </div>
+            <br />
+            <div class="text1">
+                <h3> Our doctors are on call 24/7. Same Day Appointments Available. </h3>
+
+
+            </div>
+
+            <br />
+
+            <center><button class="button"><span>Book an Appointment </span></button></center>
+
+        </div>
+    </div>
+</body>
+
+</html>

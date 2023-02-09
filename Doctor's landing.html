@@ -1,0 +1,2362 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
+        .topnav {
+
+            position: relative;
+            top: 0;
+            overflow: hidden;
+            background-color: white;
+            min-height: 50px;
+
+
+        }
+
+        .topnav a {
+            float: left;
+            color: #050505;
+            text-align: center;
+            padding: 25px 16px;
+            text-decoration: none;
+            font-size: 15px;
+
+
+
+        }
+
+
+        .topnav a.active {
+            position: absolute;
+            right: 970px;
+            overflow: hidden;
+            background-color: white;
+            color: black;
+            font-size: 22px;
+            margin-top: 20px;
+
+        }
+
+        .topnav-right {
+            float: right;
+            margin-top: 20px;
+            margin-right: 30px;
+        }
+
+
+        .topnav1 {
+            overflow: hidden;
+            background-color: #f3f3f4;
+            min-height: 23px;
+        }
+
+
+        .box-shadow {
+            width: 1300px;
+            height: 0px;
+            padding: 15px;
+            margin-top: -30px;
+
+            box-shadow: 10px 10px 5px 12px rgb(246, 246, 247);
+        }
+
+
+        .rcorners1 {
+            border-radius: 0px 0px 300px 0px;
+            background: #b7fbf5;
+            padding: 20px;
+            width: 1210px;
+            height: 700px;
+            margin-top: -37px;
+        }
+
+        .rcorners2 {
+            border-radius: 0px 0px 250px 0px;
+            background: #49d5f1;
+            padding: 6px;
+            width: 1163px;
+            height: 810px;
+            margin-top: -870px;
+            margin-left: 27px;
+        }
+
+
+        /*  img {
+            border-radius: 0px 0px 300px 0px;
+            margin-top: -860px;
+
+        } */
+
+
+        .row {
+            display: flex;
+        }
+
+
+        .container {
+            position: relative;
+            font-family: Arial;
+            text-align: justify;
+            font-size: 15px;
+
+        }
+
+
+        .text {
+
+            font-size: 30px;
+            color: white;
+            margin-top: -630px;
+            margin-left: 408px;
+        }
+
+        .text1 {
+
+            font-size: 20px;
+            color: white;
+            margin-top: -70px;
+            margin-left: 408px;
+        }
+
+
+        .text2 {
+
+            margin-left: 212px;
+            margin-top: -40px;
+        }
+
+        .button {
+            border-radius: 35px;
+            background-color: #5dd005;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 16px;
+            padding: 20px;
+            width: 240px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            margin-left: 250px;
+        }
+
+        .button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button:hover span {
+            padding-right: 25px;
+        }
+
+        .button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+
+        .circular--square {
+            border-radius: 0px 0px 300px 0px;
+            margin-top: -640px;
+
+
+        }
+
+
+        .circle4 {
+
+            margin-left: 197px;
+            margin-top: 70px;
+
+        }
+
+
+        .text3 {
+
+            font-size: 35px;
+            color: rgb(90, 87, 87);
+            margin-left: 200px;
+
+
+        }
+
+
+        .text4 {
+
+            font-size: 18px;
+            color: rgb(90, 87, 87);
+            margin-left: 200px;
+
+
+        }
+
+        .button1 {
+            border-radius: 35px;
+            background-color: #5dd005;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 16px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            margin-left: 200px;
+            margin-top: 40px;
+        }
+
+        .button1 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button1 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button1:hover span {
+            padding-right: 25px;
+        }
+
+        .button1:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .rcorners3 {
+            border-radius: 35px 0px 0px 170px;
+            background: #6083f4;
+            padding: 20px;
+            width: 565px;
+            height: 340px;
+            margin-top: -800px;
+            margin-left: 660px;
+        }
+
+        .circular--square1 {
+            border-radius: 35px 0px 0px 180px;
+            margin-top: -910px;
+            margin-left: 680px;
+
+
+        }
+
+
+        .row {
+            display: flex;
+        }
+
+
+
+        .column {
+            float: left;
+
+            width: 120.33%;
+            padding: 10px;
+            height: 170px;
+            text-align: justify;
+            margin-left: 100px;
+
+        }
+
+        .font1 {
+
+            font-size: 23px;
+            font-style: normal;
+
+
+        }
+
+
+        .font2 {
+
+            font-size: 19px;
+            font-style: normal;
+        }
+
+
+
+        .column1 {
+            float: left;
+
+            width: 75.33%;
+            padding: 10px;
+            height: 170px;
+            text-align: justify;
+            /* Should be removed. Only for demonstration */
+            margin-left: 210px;
+
+        }
+
+
+        .column2 {
+            float: left;
+
+            width: 5000.33%;
+            padding: 10px;
+            height: 170px;
+            text-align: justify;
+            /* Should be removed. Only for demonstration */
+            margin-left: -400px
+        }
+
+
+
+
+
+
+
+
+        .row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+        }
+
+
+
+        .column3 {
+            float: left;
+
+            width: 50.33%;
+            padding: 10px;
+            height: 170px;
+            text-align: justify;
+            /* Should be removed. Only for demonstration */
+            margin-left: -135px;
+            margin-top: 80px;
+
+        }
+
+
+        .column4 {
+            float: left;
+
+            width: 45.33%;
+            padding: 10px;
+            height: 170px;
+            text-align: justify;
+            /* Should be removed. Only for demonstration */
+            margin-left: -170px;
+            margin-top: 83px;
+
+        }
+
+
+        .column5 {
+            float: left;
+
+            width: 60.33%;
+            padding: 10px;
+            height: 170px;
+            text-align: justify;
+            /* Should be removed. Only for demonstration */
+            margin-left: 630px;
+            margin-top: -170px;
+
+        }
+
+
+        .wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            color: blue;
+        }
+
+        .circle {
+            position: relative;
+            background: #85b3cb;
+            border-radius: 100%;
+            height: 40px;
+            width: 40px;
+        }
+
+        .checkMark {
+            position: absolute;
+            transform: rotate(50deg) translate(-50%, -50%);
+            left: 27%;
+            top: 43%;
+            height: 15px;
+            width: 7px;
+            color: blue;
+            border-bottom: 5px solid rgb(5, 84, 253);
+            border-right: 5px solid rgb(8, 82, 242);
+        }
+
+
+
+        .position {
+
+
+            margin-left: -310px;
+            margin-top: -465px;
+        }
+
+        .position1 {
+
+
+            margin-left: -794px;
+            margin-top: -465px;
+        }
+
+
+        .position2 {
+
+
+            margin-left: -768px;
+            margin-top: -465px;
+        }
+
+        .position3 {
+
+
+            margin-left: -544px;
+            margin-top: -465px;
+        }
+
+
+        .position4 {
+
+
+            margin-left: -493px;
+            margin-top: -465px;
+        }
+
+        .position5 {
+
+
+            margin-left: -646px;
+            margin-top: -465px;
+        }
+
+
+        .text5 {
+
+
+            text-align: left;
+            margin-left: -165px;
+            font-size: 20px;
+            margin-top: -50px;
+
+
+        }
+
+
+
+        .button2 {
+            border-radius: 35px;
+            background-color: #05d463;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 16px;
+            padding: 20px;
+            width: 155px;
+            height: 70px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            margin-left: 670px;
+            margin-top: -80px;
+            margin-bottom: -50px;
+
+
+        }
+
+        .button2 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button2 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button2:hover span {
+            padding-right: 25px;
+        }
+
+        .button2:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .display2 {
+
+
+            display: flex;
+        }
+
+
+        .rcorners4 {
+            border-radius: 250px 0px 0px 0px;
+            background: #e0edfa;
+            padding: 0px;
+            width: 1300px;
+            height: 5500px;
+            margin-left: -275px;
+
+        }
+
+
+        .text6 {
+
+            font-size: 20px;
+
+
+        }
+
+
+        .text7 {
+
+            font-size: 16px;
+            margin-left: 20px;
+        }
+
+
+
+
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Float four columns side by side */
+        .column6 {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+
+        /* Remove extra left and right margins, due to padding */
+        .row1 {
+            margin: 0 -5px;
+        }
+
+        /* Clear floats after the columns */
+        .row1:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+            .column6 {
+                width: 100%;
+                display: block;
+
+            }
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: white;
+            margin-left: 250px;
+            border-radius: 10px 10px 0px 0px;
+            height: 750px;
+            width: 300px;
+        }
+
+
+
+
+
+        .column7 {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+
+        /* Remove extra left and right margins, due to padding */
+        .row2 {
+
+            margin: 5 -5px;
+        }
+
+        /* Clear floats after the columns */
+        .row2:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive columns */
+        @media screen and (max-width: 600px) {
+            .column7 {
+                width: 100%;
+                display: block;
+
+            }
+        }
+
+        /* Style the counter cards */
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 16px;
+            text-align: center;
+            background-color: white;
+            margin-left: 250px;
+            width: 300px;
+            height: 750px;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+
+
+
+        .circular--square2 {
+            border-radius: 10px 10px 10px 10px;
+            margin-top: -8px;
+            margin-left: -11px;
+            width: 302px;
+
+        }
+
+
+        .button4 {
+            background-color: #4CAF50;
+            /* Green */
+            border: none;
+            color: rgb(82, 27, 244);
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            margin-top: -40px;
+            border-radius: 30px;
+            margin-top: 10px;
+            height: 50px;
+        }
+
+
+        .button5 {
+            background-color: rgb(203, 201, 201);
+            color: rgb(6, 84, 252);
+            border: 2px solid rgb(203, 201, 201);
+        }
+
+        .button5:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        .box1 {
+
+            width: 300px;
+            height: 80px;
+            background-color: white;
+            margin-left: -16px;
+            box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.2);
+            border-radius: 0px 0px 10px 10px;
+        }
+
+        .circular--square3 {
+            border-radius: 10px 10px 10px 10px;
+            margin-top: -8px;
+            margin-left: -11px;
+            width: 302px;
+
+        }
+
+        .circular--square4 {
+            border-radius: 10px 10px 10px 10px;
+            margin-top: -8px;
+            margin-left: -11px;
+            width: 302px;
+
+        }
+
+        .button6 {
+            border-radius: 35px;
+            background-color: #5dd005;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 16px;
+            padding: 20px;
+            width: 220px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            margin-left: 200px;
+            margin-top: 150px;
+            height: 70px;
+        }
+
+        .button6 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button6 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button6:hover span {
+            padding-right: 25px;
+        }
+
+        .button6:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .box2 {
+
+            width: 220px;
+            height: 1180px;
+            background-color: rgb(104, 216, 253);
+            border-radius: 0px 50px 50px 0px;
+            margin-left: -100px;
+            margin-top: -1020px;
+
+        }
+
+        .box3 {
+
+            width: 30px;
+            height: 1180px;
+            background-color: rgb(170, 231, 251);
+            border-radius: 10px 20px 20px 10px;
+            margin-left: 90px;
+            margin-top: -1180px;
+
+
+        }
+
+
+
+
+        .row8 {
+            display: flex;
+        }
+
+
+        .container8 {
+            position: relative;
+            font-family: Arial;
+            text-align: justify;
+            font-size: 15px;
+
+        }
+
+
+        .text8 {
+
+            font-size: 25px;
+            color: white;
+            margin-top: -1000px;
+            margin-left: 408px;
+        }
+
+        .text9 {
+
+            font-size: 30px;
+            color: white;
+            margin-top: -70px;
+            margin-left: 90px;
+        }
+
+
+        .text10 {
+            color: white;
+            margin-left: 550px;
+            margin-top: -60px;
+            font-size: 23px;
+        }
+
+        .circular--square5 {
+            border-radius: 20px 0px 0px 20px;
+            margin-top: -760px;
+            margin-left: 125px;
+
+
+        }
+
+        .button7 {
+            border-radius: 35px;
+            background-color: #5dd005;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 16px;
+            padding: 20px;
+            width: 300px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            margin-left: 240px;
+            margin-top: 150px;
+            height: 70px;
+        }
+
+        .button7 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button7 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button7:hover span {
+            padding-right: 25px;
+        }
+
+        .button7:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+
+        input[type=text],
+        select {
+            width: 40%;
+            padding: 12px 10px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 20px 20px 20px 20px;
+            box-sizing: border-box;
+            height: 70px;
+
+        }
+
+        input[type=submit] {
+            width: 40%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 20px 20px 20px 20px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        .box4 {
+
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin-top: -40px;
+            margin-left: 300px;
+        }
+
+        .box5 {
+            display: flex;
+
+        }
+
+
+        .box6 {
+            display: flex;
+        }
+
+
+
+
+
+        .comment {
+            resize: none;
+            height: 160px;
+            width: 843px;
+            margin-left: 320px;
+            text-align: left;
+            border-radius: 20px 20px 20px 20px;
+        }
+
+
+
+
+
+        .text11 {
+
+            text-align: left;
+        }
+
+
+
+        .text12 {
+
+
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .circular--square6 {
+
+            border-radius: 50px 50px 50px 50px;
+
+        }
+
+
+        .main11 {
+            width: 1300px;
+            height: 80px;
+            padding: 0px;
+            text-align: justify;
+
+            background-color: rgb(48, 47, 47);
+            margin-top: 45px;
+
+        }
+
+        .align4 {
+
+            color: rgb(238, 235, 235);
+            font-size: 15px;
+            margin-left: 110px;
+            padding: 20px;
+        }
+
+        .align5 {
+
+            color: rgb(238, 235, 235);
+            font-size: 15px;
+            margin-left: 1040px;
+            padding: 20px;
+            margin-top: -80px;
+        }
+
+        .container6 {
+            position: relative;
+            width: 50%;
+        }
+
+        .align6 {
+
+            color: rgb(238, 235, 235);
+            font-size: 15px;
+            margin-left: 1110px;
+            padding: 20px;
+            margin-top: -75px;
+        }
+
+
+        .align7 {
+
+            color: rgb(238, 235, 235);
+            font-size: 15px;
+            margin-left: 1170px;
+            padding: 20px;
+            margin-top: -75px;
+        }
+
+        .member {
+            display: inline-block;
+            width: 524px;
+            height: 283px;
+            background-color: #070536 !important;
+            margin-top: 5px !important;
+            margin-right: 0px !important;
+            margin-bottom: 0px !important;
+            margin-left: 0px !important;
+            padding-top: 0px !important;
+            padding-right: 0px !important;
+            padding-bottom: 0px !important;
+            padding-left: 0px !important;
+        }
+
+        .member-img img:hover {
+            opacity: 0.3 !important;
+            transition: 0.6s;
+        }
+
+        .fgdgds img:hover {
+            transition: 0.6s;
+            mix-blend-mode: soft-light;
+        }
+
+        .vector icon {
+
+
+            margin-top: -70px;
+            margin-left: 10px;
+        }
+
+
+
+
+
+
+        .circular--square7 {
+
+
+            margin-left: 700px;
+            margin-top: px;
+
+        }
+
+        .curved-div {
+            background: #e0edfa;
+            color: #FFF;
+            text-align: center;
+            margin-top: -100px;
+        }
+
+        .curved-div h1 {
+            font-size: 6rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .curved-div p {
+            font-size: 1rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .curved-div svg {
+            display: block;
+        }
+
+
+
+
+
+
+
+        .curved1-div {
+            background: #e0edfa;
+            color: #FFF;
+            text-align: center;
+            margin-top: -410px;
+        }
+
+        .curved1-div h1 {
+            font-size: 6rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .curved1-div p {
+            font-size: 1rem;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .curved1-div svg {
+            display: block;
+        }
+
+        .main12 {
+            width: 1300px;
+            height: 850px;
+            padding: 0px;
+            text-align: justify;
+
+            background-color: rgb(48, 134, 255);
+            margin-top: -250px;
+
+
+        }
+
+
+
+
+        .parabola1 {
+            background-color: rgb(40, 130, 253);
+            width: 1050px;
+            height: 712px;
+            border: 0.001px transparent;
+            border-color: transparent rgb(48, 134, 255) rgb(48, 134, 255) rgb(48, 134, 255);
+            border-radius: 0 0 500px 500px;
+            margin-left: 40px;
+            margin-bottom: 40px;
+
+        }
+
+
+        .parabola2 {
+            background-color: rgb(39, 129, 252);
+            width: 800px;
+            height: 250px;
+            border: 0.01px solid;
+            border-color: transparent rgb(48, 134, 255) rgb(48, 134, 255) rgb(48, 134, 255);
+            border-radius: 0 0 500px 500px;
+            margin-left: 500px;
+            margin-top: -300px;
+
+
+        }
+
+        .parabola3 {
+            background-color: rgb(40, 130, 253);
+            width: 700px;
+            height: 400px;
+            border: 0.01px solid;
+            border-color: transparent rgb(48, 134, 255) rgb(48, 134, 255) rgb(48, 134, 255);
+            border-radius: 0 0 500px 500px;
+            margin-left: 600px;
+            margin-top: -600px;
+
+
+        }
+
+        .parabola4 {
+            background-color: rgb(40, 130, 253);
+            width: 400px;
+            height: 300px;
+            border: 0.001px solid;
+            border-color: transparent rgb(48, 134, 255) rgb(48, 134, 255) rgb(48, 134, 255);
+            border-radius: 0 0 500px 500px;
+            margin-left: 900px;
+            margin-top: -550px;
+
+
+        }
+
+
+        .circular--square8 {
+
+
+
+            margin-top: -20px;
+
+        }
+
+
+        .text13 {
+
+
+
+            margin-left: 250px;
+            margin-top: -350px;
+            font-size: 25px;
+            color: white;
+        }
+
+
+        .text14 {
+
+            font-size: 22px;
+            margin-left: 40px;
+            margin-top: -28px;
+            color: white;
+
+
+        }
+
+        .circleBase {
+            border-radius: 50%;
+        }
+
+        .circle1 {
+            width: 35px;
+            height: 35px;
+            background: white;
+            border: 1px solid #000;
+            margin-left: 115px;
+
+        }
+
+        .circle2 {
+            width: 35px;
+            height: 35px;
+            background: white;
+            border: 1px solid #000;
+
+            margin-left: 498px;
+            margin-top: -27px;
+        }
+
+        .circle3 {
+            width: 35px;
+            height: 35px;
+            background: white;
+            border: 1px solid #000;
+            margin-left: 905px;
+            margin-top: -34px;
+        }
+
+        .fontawosume1 {
+
+
+            margin-left: 6px;
+            margin-top: 4px;
+
+        }
+
+        .fontawosume2 {
+
+
+            margin-left: 5px;
+            margin-top: 4px;
+
+        }
+
+
+        .fontawosume3 {
+
+
+            margin-left: 8px;
+            margin-top: 4px;
+
+        }
+
+
+        .text15 {
+
+            font-size: 22px;
+            margin-left: 162px;
+            margin-top: -30px;
+            color: white;
+        }
+
+
+        .text16 {
+
+            font-size: 22px;
+            margin-left: 548px;
+            margin-top: -30px;
+            color: white;
+        }
+
+
+
+
+        .text17 {
+
+            font-size: 22px;
+            margin-left: 960px;
+            margin-top: -564px;
+            color: white;
+        }
+
+
+        .text18 {
+
+            font-size: 22px;
+            margin-left: 965px;
+            margin-top: 12px;
+            color: white;
+        }
+
+
+        .button8 {
+            border-radius: 35px;
+            background-color: white;
+            border: none;
+            color: #45a049;
+            text-align: center;
+            font-size: 16px;
+            padding: 20px;
+            width: 290px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+
+            margin-top: 70px;
+            height: 60px;
+        }
+
+        .button8 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        .button8 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        .button8:hover span {
+            padding-right: 25px;
+        }
+
+        .button8:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+
+        .space1 {
+
+            margin-left: 20px;
+            width: 1400px;
+        }
+
+        .space2 {
+
+            margin-left: -608px;
+
+            width: 1000px;
+
+
+        }
+
+        .space3 {
+
+            width: 1050px;
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <b><a class="active" href="#home">Doctor's Office Landing</a></b>
+
+        <div class="topnav-right">
+            <b><a href="#Shop">Services</a></b>
+            <b><a href="#Gallery">Service</a></b>
+            <b><a href="#Contact">About</a></b>
+            <b><a href="#Blog">Landing</a></b>
+            <b><a href="#Landing">Home</a></b>
+            <b><a href="#About">FAQ</a></b>
+            <b><a href="#Sale">Contact</a></b>
+            <b><a href="#Sale">Blog</a></b>
+            <a href="https://www.instagram.com/"> <img src="../Doctor's landing/Image.png" width="28" height="18"></a>
+        </div>
+    </div>
+    <div class="box-shadow"></div>
+    <br /> <br />
+
+    <div class="rcorners1"></div>
+    <div class="rcorners2"></div>
+
+    <div class="row">
+        <div class="container">
+
+
+
+
+
+            <img class="circular--square" src="../Doctor's landing/doctor-health-cover-insurance-medicalww.jpg"
+                width="1168px" height="700px">
+            <br /> <br /> <br /> <br />
+
+
+            <div class="text">
+                <br />
+
+                <h1> We Are Commited to Your</h1>
+                <p>
+
+                <div class="text2">
+                    <h1> Health</h1>
+                </div>
+
+                </p>
+            </div>
+            <br />
+            <div class="text1">
+                <h3> Our doctors are on call 24/7. Same Day Appointments Available. </h3>
+
+
+            </div>
+
+            <br />
+
+            <center><button class="button"><span>Book an Appointment </span></button></center>
+
+        </div>
+    </div>
+
+
+    <br /> <br /> <br /> <br /> <br /><br /><br /> <br /> <br /><br /><br /><br />
+
+
+    <div class="circle4">
+
+        <img src="../Doctor's landing/health-icon-10-3.png" width="60px" height="60px">
+
+    </div>
+
+
+
+    <div class="text3">
+
+        <b>
+            <p>Our Mission Is to</p>
+        </b>
+        <b>
+            <p> Provide a Professional</p>
+        </b>
+        <b>
+            <p> & Honest Approach to</p>
+        </b>
+
+        <b>
+            <p>Health Care</p>
+        </b>
+
+    </div>
+
+    <br />
+
+    <div class="text4">
+
+        <p> Aenean lacinia bibendum nulla sed consectetur.</p>
+        <p>Maecenas faucibus mollis interdum. Nulla vitae elit</p>
+        <p>libero, a pharetra augue. Vivamus sagittis lacus vel</p>
+        <p> augue laoreet rutrum faucibus dolor auctor. </p>
+
+    </div>
+
+
+    <button class="button1"><span>Meet Our Doctors </span></button>
+
+
+    <div class="rcorners3"></div>
+
+
+
+    <img class="circular--square1" src="../Doctor's landing/doctor-01.jpg" width="670px" height="355px">
+
+    <br /> <br /> <br /> <br /><br /> <br /> <br /> <br /><br /> <br /> <br /> <br /><br /><br /> <br />
+    <br /><br /><br /> <br /> <br /><br /><br /> <br /> <br /> <br /><br /><br /> <br /> <br /> <br /><br />
+
+
+    <div class="row">
+
+        <div class="column" style="background-color: white;">
+
+
+
+
+
+
+
+            <div class="font1">
+                <h5>Experienced Doctors</h5>
+            </div>
+
+            <div class="font2">
+                <h5>
+                    <p> Aenean eu leo quam.</p>
+                    <p> Pellentesque ornare sem lacinia</p>
+                    <p> quam venenatis</p>
+                    <p> vestibulum. Donec sed odio dui.</p>
+                </h5>
+
+
+
+
+
+                <div class="position">
+
+
+                    <div class="wrapper">
+                        <div class="circle">
+                            <div class="checkMark"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+        <div class="column1" style="background-color: white;">
+
+            <div class="font1">
+                <h5>Professional & Friendly Staff </h5>
+
+            </div>
+
+            <div class="font2">
+                <h5>
+                    <p> Aenean eu leo quam.</p>
+                    <p> Pellentesque ornare sem lacinia</p>
+                    <p> quam venenatis</p>
+                    <p> vestibulum. Donec sed odio dui.</p>
+                </h5>
+
+
+                <div class="position1">
+
+
+                    <div class="wrapper">
+                        <div class="circle">
+                            <div class="checkMark"></div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+        <div class="column2" style="background-color: white;">
+
+            <div class="font1">
+                <h5>On Call 24/7 </h5>
+
+            </div>
+
+            <div class="font2">
+                <h5>
+                    <p> Aenean eu leo quam.</p>
+                    <p> Pellentesque ornare sem lacinia</p>
+                    <p> quam venenatis</p>
+                    <p> vestibulum. Donec sed odio dui.</p>
+                </h5>
+
+
+                <div class="position2">
+
+
+                    <div class="wrapper">
+                        <div class="circle">
+                            <div class="checkMark"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+        <br />
+
+        <div class="row1">
+            <div class="column3" style="background-color: white;">
+
+                <div class="font1">
+                    <h5>Same Day Appointments</h5>
+                </div>
+
+                <div class="font2">
+                    <h5>
+                        <p> Aenean eu leo quam.</p>
+                        <p> Pellentesque ornare sem lacinia</p>
+                        <p> quam venenatis</p>
+                        <p> vestibulum. Donec sed odio dui.</p>
+                    </h5>
+
+
+                    <div class="position3">
+
+
+                        <div class="wrapper">
+                            <div class="circle">
+                                <div class="checkMark"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="column4" style="background-color: white;">
+
+                <div class="font1">
+                    <h5>Walk-In's Accepted </h5>
+
+                </div>
+
+                <div class="font2">
+                    <h5>
+                        <p> Aenean eu leo quam.</p>
+                        <p> Pellentesque ornare sem lacinia</p>
+                        <p> quam venenatis</p>
+                        <p> Donec sed odio dui.</p>
+                    </h5>
+
+
+                    <div class="position4">
+
+
+                        <div class="wrapper">
+                            <div class="circle">
+                                <div class="checkMark"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+            <div class="column5" style="background-color: white;">
+
+                <div class="font1">
+                    <h5>No Extra Fees </h5>
+
+                </div>
+
+                <div class="font2">
+                    <h5>
+                        <p> Aenean eu leo quam.</p>
+                        <p> Pellentesque ornare sem lacinia</p>
+                        <p> quam venenatis</p>
+                        <p> vestibulum. Donec sed odio dui.</p>
+                    </h5>
+
+
+                    <div class="position5">
+
+
+                        <div class="wrapper">
+                            <div class="circle">
+                                <div class="checkMark"></div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <br /> <br /> <br /> <br /> <br /> <br /><br /> <br /> <br /> <br /> <br /> <br />
+            <br /> <br /><br /> <br /><br /> <br /><br /><br /><br /><br />
+
+
+            <button class="button2"><span>View Plans </span></button>
+
+            <div class="text5">
+                <h1> See If We Are In Your Network </h1>
+            </div>
+
+
+
+            <br /><br /><br /><br /><br /> <br /><br /><br /> <br />
+
+
+
+
+            <div class="rcorners4">
+                <div class="text6">
+                    <br /> <br /> <br /> <br /><br /> <br /> <br /> <br />
+
+                    <center>
+                        <h1> Our Services </h1>
+                    </center>
+
+
+
+                </div>
+                <br />
+
+                <div class="text7">
+
+                    <center>
+                        <p> Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. </p>
+                    </center>
+
+                    <center>
+                        <p> Nulla vitae elit libero, a pharetra augue. Vivamus sagittis lacus vel augue laoreet </p>
+                    </center>
+
+
+                    <center>
+                        <p> rutrum faucibus dolor auctor. Curabitur blandit tempus </p>
+                    </center>
+
+
+                </div>
+
+                <br /> <br /> <br /> <br />
+
+
+
+
+                <div class="row1">
+                    <div class="column6">
+                        <div class="card">
+                            <div class="circular--square2">
+
+                                <img class="circular--square2" src="../Doctor's landing/doctor-07.jpg" width="285px"
+                                    height="350px">
+
+
+                            </div>
+
+                            <br />
+
+
+
+                            <p> <img src="../Doctor's landing/health-icon-4-3.png" width="70px" height="70px"> </p>
+                            <h3>
+                                <p> Primary Care</p>
+                            </h3>
+
+                            <p> Sed porttitor lectus nibh. Nulla</p>
+                            <p> porttitor accumsan tincidunt.</p>
+                            <p>Vestibulum ante ipsum primis. In</p>
+                            <p>faucibus orci luctus et ultrices</p>
+                            <p> posuere cubilia. Curae donec velit</p>
+                            <p> neque porttitor lectus nibh.</p><br />
+
+                            <div class="box1"><button class="button4 button5">Learn More</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="column6">
+                        <div class="card">
+
+                            <div class="circular--square3">
+                                <img class="circular--square3" src="../Doctor's landing/doctor-05.jpg" width="285px"
+                                    height="350px">
+
+                            </div>
+
+                            <br />
+
+
+
+
+
+                            <p><img src="../Doctor's landing/health-icon-16-3.png" width="70px" height="70px"></p>
+                            <h3>
+                                <p>Cardiology</p>
+                            </h3>
+
+                            <p> Sed porttitor lectus nibh. Nulla</p>
+                            <p> porttitor accumsan tincidunt.</p>
+                            <p>Vestibulum ante ipsum primis. In</p>
+                            <p>faucibus orci luctus et ultrices</p>
+                            <p> posuere cubilia. Curae donec velit</p>
+                            <p> neque porttitor lectus nibh.</p><br />
+
+
+                            <div class="box1"><button class="button4 button5">Learn More</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="column6">
+                        <div class="card">
+                            <div class="circular--square4">
+                                <img class="circular--square4" src="../Doctor's landing/doctor-23.jpg" width="285px"
+                                    height="350px">
+
+                            </div>
+                            <br />
+                            <p> <img src="../Doctor's landing/health-icon-2-3.png" width="70px" height="70px"> </p>
+
+                            <h3>
+                                <p>Urgent Care</p>
+                            </h3>
+                            <p> Sed porttitor lectus nibh. Nulla</p>
+                            <p> porttitor accumsan tincidunt.</p>
+                            <p>Vestibulum ante ipsum primis. In</p>
+                            <p>faucibus orci luctus et ultrices</p>
+                            <p> posuere cubilia. Curae donec velit</p>
+                            <p> neque porttitor lectus nibh.</p><br />
+                            <div class="box1"><button class="button4 button5">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /><br /> <br /> <br /> <br /> <br /> <br />
+                    <br /> <br /><br /> <br /> <br /> <br /> <br /> <br /><br /><br /><br /><br />
+                    <br /><br /><br /><br /> <br /><br /><br /><br /><br /><br /><br /><br /> <br /><br /><br /><br />
+
+                    <br /><br /><br /> <br /><br /><br /><br />
+
+                    <div class="column7">
+                        <div class="card">
+
+                            <div class="circular--square4">
+                                <img class="circular--square4" src="../Doctor's landing/doctor-08.jpg" width="285px"
+                                    height="350px">
+
+                            </div>
+                            <br />
+                            <p> <img src="../Doctor's landing/health-icon-13-3.png" width="70px" height="70px"> </p>
+
+                            <h3>Pharmaceutical</h3>
+                            <p> Sed porttitor lectus nibh. Nulla</p>
+                            <p> porttitor accumsan tincidunt.</p>
+                            <p>Vestibulum ante ipsum primis. In</p>
+                            <p>faucibus orci luctus et ultrices</p>
+                            <p> posuere cubilia. Curae donec velit</p>
+                            <p> neque porttitor lectus nibh.</p><br />
+                            <div class="box1"><button class="button4 button5">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column7">
+                        <div class="card">
+                            <div class="circular--square4">
+                                <img class="circular--square4" src="../Doctor's landing/doctor-06.jpg" width="285px"
+                                    height="350px">
+
+                            </div>
+                            <br />
+                            <p> <img src="../Doctor's landing/health-icon-12-3.png" width="70px" height="70px"> </p>
+
+                            <h3>Newborn Care</h3>
+                            <p> Sed porttitor lectus nibh. Nulla</p>
+                            <p> porttitor accumsan tincidunt.</p>
+                            <p>Vestibulum ante ipsum primis. In</p>
+                            <p>faucibus orci luctus et ultrices</p>
+                            <p> posuere cubilia. Curae donec velit</p>
+                            <p> neque porttitor lectus nibh.</p><br />
+                            <div class="box1"><button class="button4 button5">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column7">
+                        <div class="card">
+                            <div class="circular--square4">
+                                <img class="circular--square4" src="../Doctor's landing/doctor-04.jpg" width="285px"
+                                    height="350px">
+
+                            </div>
+                            <br />
+                            <p> <img src="../Doctor's landing/health-icon-9-3.png" width="70px" height="70px"> </p>
+                            <h3>Pediatric Care</h3>
+                            <p> Sed porttitor lectus nibh. Nulla</p>
+                            <p> porttitor accumsan tincidunt.</p>
+                            <p>Vestibulum ante ipsum primis. In</p>
+                            <p>faucibus orci luctus et ultrices</p>
+                            <p> posuere cubilia. Curae donec velit</p>
+                            <p> neque porttitor lectus nibh.</p><br />
+                            <div class="box1"><button class="button4 button5">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <center><button class="button6"><span>View All Services </span></button>
+                </center>
+
+
+                <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+                <br /><br /> <br /> <br /> <br /> <br /> <br />
+                <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+                <br /><br /> <br /> <br /> <br /> <br /> <br /><br /> <br /><br /> <br />
+
+
+
+
+                <div class="row8">
+                    <div class="container8">
+
+
+
+                        <img class="circular--square5" src="../Doctor's landing/istockphoto-1266812230-612x612-1.jpg"
+                            width="1174px" height="1180px">
+
+                        <div class="text8">
+                            <br />
+
+                            <h1> Your Health Starts Here</h1>
+                            <br />
+
+                            <p>
+
+
+                            <div class="text9">
+                                <h5> Flexible appointments and urgent care.</h5>
+                            </div>
+
+                            </p>
+                        </div>
+                        <br />
+                        <div class="text10">
+                            <h3> Or call — 344 532 2352 </h3>
+
+
+                        </div>
+
+
+                        <br />
+
+
+                        <div class="box4">
+                            <form action="/action_page.php">
+
+                                <div class="box5">
+
+                                    <label for="fname"></label>
+                                    <input type="text" id="fname" name="firstname"
+                                        placeholder="Your full name"><br /><br /><br /><br />
+
+                                    <label for="lname"></label>
+                                    <div class="space1"> <input type="text" id="lname" name="lastname"
+                                            placeholder="Phone Number"></div>
+
+                                </div>
+
+
+                                <div class="box6">
+
+
+                                    <label for="lname"></label>
+
+                                    <div class="space3">
+
+                                        <input type="text" id="lname" name="lastname" placeholder="E-mail Address">
+
+                                    </div>
+
+
+
+                                    <br /><br /><br /><br />
+
+                                    <label for="country"></label>
+                                    <div class="space2">
+
+
+                                        <select id="country" name="country">
+                                            <option value="australia">Choose a Doctor</option>
+                                            <option value="canada">Provider Name</option>
+                                            <option value="usa">Provider Name </option>
+                                            <option value="usa">Provider Name </option>
+                                            <option value="usa">No Preference </option>
+                                        </select>
+
+
+
+
+                                    </div>
+
+
+
+                                </div>
+
+
+
+
+                            </form>
+                        </div>
+
+                        <textarea class="comment">Reason for Visiting.</textarea>
+
+
+                        <center><button class="button7"><span>Submit Appoinment Request </span></button></center>
+
+                    </div>
+                </div>
+
+
+
+                <div class="box2"></div>
+                <div class="box3"></div>
+                <br /> <br /> <br /> <br /> <br /><br />
+
+
+                <br /> <br /> <br /> <br /> <br /><br />
+
+
+                <div class="text12">
+
+                    <i>
+                        <p>“Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cras mattis
+                        </p>
+                    </i>
+                    <i>
+                        <p>consectetur purus sit amet fermentum. Lorem ipsum dolor sit amet consectetur adipiscing</p>
+                    </i>
+                    <i>
+                        <p> elit. Duis mollis est non commodo luctus, nisi erat porttitor ligula eget lacinia odio sem
+                            nec
+                        </p>
+                    </i>
+                    <i>
+                        <p> elit. Curabitur blandit tempus porttitor”</p>
+                    </i>
+
+
+
+
+                </div>
+
+
+                <br /> <br />
+
+
+                <center><img class="circular--square6" src="../Doctor's landing/portrait-square-03.jpg" width="100px"
+                        height="100px">
+
+
+                </center>
+
+
+                <br />
+                <center>
+                    <p> Brett Vasquez</p>
+                </center>
+
+                <center>
+                    <p>Patient</p>
+                </center>
+
+
+
+
+
+
+                <div class="circular--square7"><img src="../Doctor's landing/SVG2.png" width="200px" height="440px">
+                </div>
+
+
+
+                <div class="curved-div">
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="150 135 1260 420">
+                        <path fill="#95befd" fill-opacity="1"
+                            d="M0,64L80,64C160,64,320,64,480,85.3C640,107,800,149,960,149.3C1120,149,1280,107,1360,85.3L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                        </path>
+                    </svg>
+
+
+                </div>
+
+
+
+
+                <div class="curved1-div">
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="150 135 1260 420">
+                        <path fill="rgb(48, 134, 255)" fill-opacity="1"
+                            d="M0,64L80,64C160,64,320,64,480,85.3C640,107,800,149,960,149.3C1120,149,1280,107,1360,85.3L1440,64L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z">
+                        </path>
+                    </svg>
+
+
+                </div>
+
+
+                <div class="main12">
+                    <center><img class="circular--square8" src="../Doctor's landing/health-icon-10-2.png" width="70px"
+                            height="70px">
+                    </center>
+                    <div class="parabola1"></div>
+                    <br />
+
+                    <div class="parabola2"></div><br />
+                    <div class="parabola3"></div><br />
+
+                    <div class="parabola4"></div>
+                    <br /> <br />
+
+                    <div class="text13">
+                        <h1> Better Health Care is Our Mission </h1>
+                    </div>
+
+                    <br />
+
+                    <div class="text14">
+                        <center>
+                            <h5> 24/7 SERVICE. SAME DAY APPOINTMENTS ARE AVAILABLE.</h5>
+                        </center>
+                    </div>
+
+                    <br /><br />
+
+                    <div class="circleBase circle1">
+
+                        <div class="fontawosume1"><i class="fa fa-phone" style="font-size:25px; color:blue"></i></div>
+
+
+
+
+                    </div>
+                    <div class="text15">
+                        (344) 532-2352
+                    </div>
+
+
+                    <div class="circleBase circle2">
+
+                        <div class="fontawosume2">
+
+                            <i class="fa fa-envelope" style="font-size:22px;color:blue"></i>
+
+                        </div>
+
+
+
+                    </div>
+
+                    <div class="text16">
+                        info@divicare.com
+                    </div>
+
+
+
+
+
+                    <div class="circleBase circle3">
+
+                        <div class="fontawosume3"> <i class="fa fa-map-marker" style="font-size:28px;color:blue"></i>
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+                <div class="text17">
+                    1235 Divi St. # 100, San
+                </div>
+
+
+
+                <div class="text18">
+                    Francisco, CA
+                </div>
+
+
+                <br />
+
+                <center><button class="button8"><span>Book an Appoinment Today ! </span></button></center>
+
+
+
+                <br /><br /> <br /> <br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+                <div class="main11">
+
+                    <div class="align4">
+                        <p> Designed by Elegant Themes | Powered by WordPress </p>
+
+                    </div>
+
+
+
+                    <div class="align5">
+
+                        <div class="container6">
+
+
+
+                            <div class="member-img">
+
+
+
+
+                                <a href="https://www.facebook.com"><img src="../Doctor's landing/fb.png"
+                                        alt="HTML tutorial" style="width:34px;height:34px;"></a>
+
+
+
+
+
+
+                            </div>
+
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <div class="align6">
+                        <div class="container6">
+
+                            <div class="member-img"> <a href="https://www.twitter.com"><img
+                                        src="../Doctor's landing/tw.png" alt="HTML tutorial"
+                                        style="width:34px;height:34px;"></a></div>
+
+
+
+
+
+
+
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+                    <div class="align7">
+                        <div class="container6">
+                            <div class="member-img">
+
+                                <a
+                                    href="https://www.elegantthemes.com/layouts/business/doctors-office-landing-page/live-demo"><img
+                                        class="vector icon" src="../Doctor's landing/34343434 vector back icon.jpg"
+                                        alt="HTML tutorial" style="width:28px;height:32px;"></a>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
